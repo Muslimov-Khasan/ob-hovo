@@ -3,11 +3,16 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    width: 100%;
     height: 100vh;
-    padding: 0;
-    margin: 0 auto;
-    margin-left: 500px;
+    background-repeat: no-repeat;
+}
+
+.form{
+    margin-left: 600px;
+}
+
+.wearher{
+    margin-left: 600px;
 }
