@@ -4,10 +4,10 @@ const elWrapper = document.querySelector(".wearher");
 
 const weatherRender = (data) => {
  const html = `
- <h2 class="wearher__name">${data.name}</h2>
- <p class="weather__country">Country:${data.sys.country} </p>
- <p class="weather__temper">${data.main.temp}°C</p>
- <p class="weather__speed">Speed:${data.wind.speed}</p>
+ <h2 class="wearher__name text-white">${data.name}</h2>
+ <p class="weather__country text-white fs-4">Country:${data.sys.country} </p>
+ <p class="weather__temper text-white fs-4">${data.main.temp}°C</p>
+ <p class="weather__speed text-white fs-4">Speed:${data.wind.speed}</p>
  `
 
  elWrapper.innerHTML = null;
@@ -22,7 +22,6 @@ const getApiData = (location) => {
 
 elForm.addEventListener("submit", (evt) =>{
   evt.preventDefault();
-
   let inputValue = elInput.value;
     getApiData(inputValue)
 

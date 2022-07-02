@@ -4,12 +4,15 @@
 
 body{
     display: block;
+    background-image: url(https://young.scot/media/5203/summer-rocks-1.gif);
+    background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
 .form{
+    margin-top: 300px;
     margin-left: 600px;
 }
 
