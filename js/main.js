@@ -5,13 +5,13 @@ const elWrapper = document.querySelector(".wearher");
 const weatherRender = (data) => {
  const html = `
  <h2 class="wearher__name">${data.name}</h2>
- <p class="weather__country">Country:${data.main.country} </p>
- <p class="weather__temper">${data.main.hot}°C</p>
+ <p class="weather__country">Country:${data.sys.country} </p>
+ <p class="weather__temper">${data.main.temp}°C</p>
  <p class="weather__speed">Speed:${data.wind.speed}</p>
  `
 
  elWrapper.innerHTML = null;
- elWrapper.insertAdjacentHTML("afterbegin", html);
+ elWrapper.insertAdjacentHTML("beforeend", html);
 }
 
 const getApiData = (location) => {
