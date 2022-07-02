@@ -23,6 +23,7 @@ const getApiData = (location) => {
 elForm.addEventListener("submit", (evt) =>{
   evt.preventDefault();
   let inputValue = elInput.value;
+  elInput.value = null;
     getApiData(inputValue)
 
 })
