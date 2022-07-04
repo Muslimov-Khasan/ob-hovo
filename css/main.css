@@ -16,3 +16,10 @@ body{
 .form{
     margin-top: 300px;
 }
+
+.input{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
