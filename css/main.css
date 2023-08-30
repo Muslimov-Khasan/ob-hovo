@@ -13,9 +13,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.container {
+    transform: translateY(300px);
+
+}
+
 .form {
+    width: 50%; /* Or whatever width you want */
     margin: 0 auto;
-  margin-top: 300px;
 }
 
 .input {
