@@ -14,13 +14,13 @@ body {
 }
 
 .container {
-    transform: translateY(300px);
-
+  transform: translateY(300px);
 }
 
 .form {
-    width: 50%; /* Or whatever width you want */
-    margin: 0 auto;
+  width: 50%; /* Or whatever width you want */
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .input {
